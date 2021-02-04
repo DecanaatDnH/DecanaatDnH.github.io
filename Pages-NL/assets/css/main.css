@@ -569,6 +569,9 @@ input, select, textarea {
 		text-shadow: -1px 0 #ffffff, 0 1px#ffffff, 1px 0#ffffff, 0 -1px #ffffff;
 		
 	}
+	.introStyle{
+		padding-bottom: 25%;
+	}
 
 	@media screen and (max-width: 736px) {
 
@@ -724,7 +727,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		.button:hover,
 		button:hover {
-			background-color: #a8cea4;
+			background-color: #a8cea400;
 		}
 
 		input[type="button"]:active,
@@ -732,7 +735,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		.button:active,
 		button:active {
-			background-color: #88bc82;
+			background-color: #88bc8200;
 		}
 
 		input[type="button"].style2,
@@ -764,10 +767,23 @@ input, select, textarea {
 			input[type="button"].style2.down,
 			input[type="submit"].style2.down,
 			input[type="reset"].style2.down,
-			.button.style2.down,
-			/*button.style2.down {
+			/*.button.style2.down,
+			button.style2.down {
 				/*background-image: url("images/arrow.svg");
 			}*/
+
+			.MidButton, .MidButton:hover {
+				background-color: #8f8f8f, #8f8f8f00;
+				border:solid white;
+				color: white;
+				padding: 15px 32px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 16px;
+				margin: 4px 2px;
+				cursor: pointer;
+			}
 
 /* Form */
 
@@ -1837,14 +1853,14 @@ input, select, textarea {
 		left: 0;
 		top: 0;
 		width: 100%;
-		background: rgba(255, 255, 255, 0);
+		background: rgba(255, 255, 255, 1);
 		height: 3em;
 		line-height: 3em;
-		box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
+		box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.5);
 	}
 
 		#header h1 {
-			position: absolute;
+			position: relative;
 			left: 1em;
 			top: 0;
 			height: 3em;
@@ -2249,7 +2265,7 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background: url("../../images/DeNieuweHavo_favicon.png");
+		
 		background-color: rgb(0, 0, 0);
 		background-size: contain;
 		background-position-x: center;
