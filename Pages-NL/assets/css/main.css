@@ -562,8 +562,8 @@ input, select, textarea {
 	}
 
 	.introStyle h2, .introStyle a {
-		font-size: 2.25em;
-		line-height: 1.25em;
+		font-size: 2em;
+		line-height: 2em;
 		letter-spacing: -0.05em;
 		color: #252525;
 		text-shadow: -1px 0 #ffffff, 0 1px#ffffff, 1px 0#ffffff, 0 -1px #ffffff;
@@ -571,6 +571,12 @@ input, select, textarea {
 	}
 	.introStyle{
 		padding-bottom: 25%;
+	}
+	.introImage{
+		display: block;
+  		margin-left: auto;
+  		margin-right: auto;
+  		width: 50%;
 	}
 
 	@media screen and (max-width: 736px) {
@@ -692,7 +698,7 @@ input, select, textarea {
 		.button.down,
 		button.down {
 			width: 5em;
-			height: 3ch;
+			height: 5em;
 			line-height: normal;
 			padding: 0;
 			/*background-image: url("images/dark-arrow.svg");*/
@@ -771,18 +777,34 @@ input, select, textarea {
 			button.style2.down {
 				/*background-image: url("images/arrow.svg");
 			}*/
-
-			.MidButton, .MidButton:hover {
-				background-color: #8f8f8f, #8f8f8f00;
+			.MiddleLogo{
+				position: absolute;
+				transform-origin: center;
+				transform: translate(-55.3%,-38%);
+				margin-right: -50%;
+				top: 50%;
+				left: 50%;
+			}
+			.MidButton {
+				background-color: #00000011;
 				border:solid white;
 				color: white;
-				padding: 15px 32px;
+				padding: 32px 32px;
 				text-align: center;
 				text-decoration: none;
 				display: inline-block;
 				font-size: 16px;
-				margin: 4px 2px;
+				margin: 2px 2px;
+				border-radius: 50%;
 				cursor: pointer;
+				transform:scale(0.85);
+			}
+			
+			.IntroSection{
+				position: relative;
+				margin: 20px auto 0;
+				width: 100%;
+				max-width: 100%;
 			}
 
 /* Form */
