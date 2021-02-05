@@ -2113,9 +2113,10 @@ input, select, textarea {
 					background-color: rgba(255, 255, 255, 0.25);
 				}
 
-				.main.dark .button.style2.down {
-					/*background-image: url("images/dark-arrow.svg");*/
+				/*.main.dark .button.style2.down {
+					background-image: url("images/dark-arrow.svg");
 				}
+				*/
 
 		body.is-touch .main {
 			background-attachment: scroll !important;
