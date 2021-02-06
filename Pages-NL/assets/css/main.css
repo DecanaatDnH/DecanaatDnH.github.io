@@ -2201,7 +2201,7 @@ input, select, textarea {
 			}
 
 			.main.fullscreen {
-				height: auto !important;
+				height: 100% !important;
 			}
 
 			.main.style1 {
