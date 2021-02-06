@@ -2341,6 +2341,7 @@ input, select, textarea {
 		background-size: contain;
 		background-position-x: center;
 		background-repeat: no-repeat;
+		overflow: hidden;
 	}
 
 /* One */
