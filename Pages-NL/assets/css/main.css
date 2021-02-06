@@ -574,9 +574,10 @@ input, select, textarea {
 	}
 	.introImage{
 		display: block;
-  		margin-left: auto;
-  		margin-right: auto;
-  		width: 50%;
+  		margin-left: 25%;
+  		margin-right: 25%;
+		  width: 50%;
+		  height: 100%;
 	}
 
 	@media screen and (max-width: 736px) {
@@ -780,7 +781,6 @@ input, select, textarea {
 			.MiddleLogo{
 				position: absolute;
 				transform-origin: center;
-				transform: translate(-55.3%,-38%);
 				margin-right: -50%;
 				top: 50%;
 				left: 50%;
@@ -797,7 +797,7 @@ input, select, textarea {
 				margin: 2px 2px;
 				border-radius: 50%;
 				cursor: pointer;
-				transform:scale(0.85);
+				transform:scale(0.89) translate(-64%,-42%);
 			}
 			
 			.IntroSection{
@@ -2113,10 +2113,9 @@ input, select, textarea {
 					background-color: rgba(255, 255, 255, 0.25);
 				}
 
-				/*.main.dark .button.style2.down {
-					background-image: url("images/dark-arrow.svg");
+				.main.dark .button.style2.down {
+					/*background-image: url("images/dark-arrow.svg");*/
 				}
-				*/
 
 		body.is-touch .main {
 			background-attachment: scroll !important;
