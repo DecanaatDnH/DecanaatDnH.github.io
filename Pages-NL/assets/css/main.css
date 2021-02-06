@@ -570,7 +570,7 @@ input, select, textarea {
 		
 	}
 	.introStyle{
-		padding-bottom: 25%;
+		padding-bottom: 0%;
 	}
 	.introImage{
 		display: block;
@@ -663,6 +663,11 @@ input, select, textarea {
 
 /* Button */
 
+	.PlacmentCornerbtn{
+		position: absolute;
+		right: 0;
+		bottom:0;
+	}
 	input[type="button"],
 	input[type="submit"],
 	input[type="reset"],
@@ -688,7 +693,7 @@ input, select, textarea {
 		padding: 0 2em 0 2em;
 		position: absolute;
 		right:10px;
-		bottom: 0;
+		bottom: 10px;
 		text-align: center;
 		text-decoration: none;
 	}
@@ -786,7 +791,7 @@ input, select, textarea {
 				left: 50%;
 			}
 			.MidButton {
-				background-color: #00000011;
+				background-color: #000000;
 				border:solid white;
 				color: white;
 				padding: 32px 32px;
@@ -799,12 +804,56 @@ input, select, textarea {
 				cursor: pointer;
 				transform:scale(0.89) translate(-64%,-42%);
 			}
-			
+			.IntroText{
+				padding-bottom: 20%;
+			}
 			.IntroSection{
 				position: relative;
 				margin: 20px auto 0;
 				width: 100%;
-				max-width: 100%;
+				transform: scale(1);
+			}
+			/*Screen 4K*/
+			@media screen and (max-width: 2560px) {
+				.MidButton {
+					transform: scale(1) translate(-58%,-38%);
+				}
+			}
+			/*laptop L*/
+			@media screen and (max-width: 1440px) {
+				.MidButton {
+					transform: scale(0.88) translate(-65%,-44%);
+				}
+			}
+			/*laptop*/
+			@media screen and (max-width: 1024px) {
+				.MidButton {
+					transform: scale(0.83) translate(-68%,-47%);
+				}
+			}
+			/*tablet*/
+			@media screen and (max-width: 768px) {
+				.MidButton {
+					transform: scale(0.74) translate(-76%,-54%);
+				}
+			}
+			/*Mobile L*/
+			@media screen and (max-width: 425px) {
+				.MidButton {
+					transform: scale(0.4) translate(-136%,-114%);
+				}
+			}
+			/*Mobile M*/
+			@media screen and (max-width: 375px) {
+				.MidButton {
+					transform: scale(0.35) translate(-155%,-132%);
+				}
+			}
+			/*Mobile M*/
+			@media screen and (max-width: 320px) {
+				.MidButton {
+					transform: scale(0.29) translate(-183%,-162%);
+				}
 			}
 
 /* Form */
@@ -1983,7 +2032,7 @@ input, select, textarea {
 			}
 
 		.main.fullscreen {
-			min-height: 100%;
+			height: 100%;
 		}
 
 		.main.style1 {
@@ -1996,7 +2045,7 @@ input, select, textarea {
 			-ms-justify-content: center;
 			justify-content: center;
 			text-align: center;
-			padding: 3em 0 3em 0;
+			/*padding: 3em 0 3em 0;*/
 		}
 
 			.main.style1 h2 {
