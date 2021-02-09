@@ -2051,6 +2051,7 @@ input, select, textarea {
 			.main.style1 h2 {
 				font-size: 4.25em;
 				line-height: 1em;
+				padding-top: 10%;
 			}
 
 			.main.style1 > .content {
