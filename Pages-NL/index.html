@@ -10,7 +10,6 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload" style="overflow: auto;">
-
 		<!-- Header -->
 			<header id="header">
 				<h1>DecanaatDnH</h1>
@@ -35,7 +34,7 @@
 						</header>
 						
 						<div class="IntroSection">
-							<img src="images/DeNieuweHavo_favicon.png" alt="DnH" class="introImage">
+							<img src="images/DeNieuweHavo_favicon.png" alt="DnH" class="introImage imgDropShadow">
 							<a href="/Pages-NL/Havo.html" class="MidButton MiddleLogo">Havo</a>
 						</div>
 					</div>
@@ -85,6 +84,17 @@
 			</footer>
 
 		<!-- Scripts -->
+		<script>
+			var mouseX;
+			var mouseY;
+			$(document).mousemove( function(e) {
+				mouseX = e.pageX; 
+				mouseY = e.pageY;
+			});  
+			$(".classForHoverEffect").mouseover(function(){
+				$('#DivToShow').css({'top':mouseY,'left':mouseX}).fadeIn('slow');
+			});
+		</script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.poptrox.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>

@@ -27,7 +27,6 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-
 ol, ul {
 	list-style: none;
 }
@@ -2052,6 +2051,16 @@ input, select, textarea {
 				font-size: 4.25em;
 				line-height: 1em;
 				padding-top: 10%;
+			}
+			.imgDropShadow {
+				-webkit-filter: drop-shadow(1.5px 1.5px 0 black)
+								drop-shadow(-1.5px -1.5px 0 black)
+								drop-shadow(-1.5px 1.5px 0 black)
+								drop-shadow(1.5px -1.5px 0 black);
+				filter: drop-shadow(1.5px 1.5px 0 black)
+				drop-shadow(-1.5px -1.5px 0 black)
+				drop-shadow(-1.5px 1.5px 0 black)
+				drop-shadow(1.5px -1.5px 0 black);
 			}
 
 			.main.style1 > .content {
