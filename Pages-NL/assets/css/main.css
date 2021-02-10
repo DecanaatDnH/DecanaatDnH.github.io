@@ -2050,7 +2050,7 @@ input, select, textarea {
 			.main.style1 h2 {
 				font-size: 4.25em;
 				line-height: 1em;
-				padding-top: 10%;
+				padding-top: 15%;
 			}
 			.imgDropShadow {
 				-webkit-filter: drop-shadow(1.5px 1.5px 0 black)
