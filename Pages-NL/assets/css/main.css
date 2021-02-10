@@ -583,6 +583,9 @@ input, select, textarea {
 		  width: 50%;
 		  height: 100%;
 	}
+	.size{
+		
+	}
 
 	@media screen and (max-width: 736px) {
 
@@ -824,11 +827,17 @@ input, select, textarea {
 				.MidButton {
 					transform: scale(1) translate(-58%,-38%);
 				}
+				.IntroSection{
+					transform: scale(1);
+				}
 			}
 			/*laptop L*/
 			@media screen and (max-width: 1440px) {
 				.MidButton {
 					transform: scale(0.88) translate(-65%,-44%);
+				}
+				.IntroSection{
+					transform: scale(1);
 				}
 			}
 			/*laptop*/
@@ -836,11 +845,17 @@ input, select, textarea {
 				.MidButton {
 					transform: scale(0.83) translate(-68%,-47%);
 				}
+				.IntroSection{
+					transform: scale(1);
+				}
 			}
 			/*tablet*/
 			@media screen and (max-width: 768px) {
 				.MidButton {
 					transform: scale(0.74) translate(-76%,-54%);
+				}
+				.IntroSection{
+					transform: scale(1);
 				}
 			}
 			/*Mobile L*/
@@ -848,17 +863,26 @@ input, select, textarea {
 				.MidButton {
 					transform: scale(0.4) translate(-136%,-114%);
 				}
+				.IntroSection{
+					transform: scale(1);
+				}
 			}
 			/*Mobile M*/
 			@media screen and (max-width: 375px) {
 				.MidButton {
 					transform: scale(0.35) translate(-155%,-132%);
 				}
+				.IntroSection{
+					transform: scale(1);
+				}
 			}
 			/*Mobile M*/
 			@media screen and (max-width: 320px) {
 				.MidButton {
 					transform: scale(0.29) translate(-183%,-162%);
+				}
+				.IntroSection{
+					transform: scale(1);
 				}
 			}
 
