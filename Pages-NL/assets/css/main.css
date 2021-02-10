@@ -24,8 +24,13 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
-body {
+body{
 	line-height: 1;
+	-ms-overflow-style: none;  /* IE and Edge */
+  	scrollbar-width: none;  /* Firefox */
+}
+body::-webkit-scrollbar {
+    display: none;
 }
 ol, ul {
 	list-style: none;
@@ -798,7 +803,7 @@ input, select, textarea {
 				text-decoration: none;
 				display: block;
 				min-width: auto;
-				min-height: auto;
+				min-height: fit-content;
 				font-size: 16px;
 				margin: 2px 2px;
 				border-radius: 50%;
