@@ -583,9 +583,6 @@ input, select, textarea {
 		  width: 50%;
 		  height: 100%;
 	}
-	.size{
-		
-	}
 
 	@media screen and (max-width: 736px) {
 
@@ -2120,7 +2117,7 @@ input, select, textarea {
 				
 			}
 			.Position1{
-				position: relative;
+				position: absolute;
 				top: 50%;
 				left: 50%;
 				transform: translate(-47%, -391%) scale(1); 
@@ -2257,10 +2254,6 @@ input, select, textarea {
 
 				.main.dark .button.style2:active {
 					background-color: rgba(255, 255, 255, 0.25);
-				}
-
-				.main.dark .button.style2.down {
-					/*background-image: url("images/dark-arrow.svg");*/
 				}
 
 		body.is-touch .main {
