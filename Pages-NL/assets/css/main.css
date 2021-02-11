@@ -2101,6 +2101,53 @@ input, select, textarea {
 				margin-right: auto;
 				width: 40%;
 			}
+			.SpiralButton{
+				-moz-transition: background-color 0.2s ease-in-out;
+				-webkit-transition: background-color 0.2s ease-in-out;
+				-ms-transition: background-color 0.2s ease-in-out;
+				transition: background-color 0.2s ease-in-out;
+				background-color: #98c593;
+				border-radius: 50%;
+				width: 100px;
+				height: 100px;
+				color: #ffffff;
+				cursor: pointer;
+				display: inline-block;
+				text-align: center;
+				padding-top: 2%;
+				position: relative;
+				
+			}
+			.Position1{
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+			.Position2{
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+			.Position3{
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+			.Position4{
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+			.Position5{
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
 
 			.main.style1 > .content {
 				-moz-transition: opacity 1s ease;
