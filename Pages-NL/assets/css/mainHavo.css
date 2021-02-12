@@ -2114,8 +2114,6 @@ input, select, textarea {
 				text-align: center;
 				position: relative;
 				user-select: none;
-				
-				
 			}
 			.Position1{
 				position: absolute;
@@ -2126,15 +2124,31 @@ input, select, textarea {
 			}
 			.Position2{
 				position: absolute;
+				left: 50%;
+				top: 50%;
+				transform: translate(-50%, -50%);
+				transform-origin: center center;
 			}
 			.Position3{
 				position: absolute;
+				left: 50%;
+				top: 50%;
+				transform: translate(-50%, -50%);
+				transform-origin: center center;
 			}
 			.Position4{
 				position: absolute;
+				left: 50%;
+				top: 50%;
+				transform: translate(-50%, -50%);
+				transform-origin: center center;
 			}
 			.Position5{
 				position: absolute;
+				left: 50%;
+				top: 50%;
+				transform: translate(-50%, -50%);
+				transform-origin: center center;
 			}
 
 			.main.style1 > .content {
