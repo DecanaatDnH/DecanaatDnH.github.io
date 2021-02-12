@@ -2119,8 +2119,13 @@ input, select, textarea {
 				user-select: none;
 				
 			}
+			.scale{
+				position: absolute;
+				top: 50%;
+				left: 50%;
+			}
 			.Position1{
-				position: relative;
+				position: absolute;
 				top: 50%;
 				left: 50%;
 				transform: translate(-47%, -391%) scale(1); 
