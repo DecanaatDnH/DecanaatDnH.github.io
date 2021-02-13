@@ -2119,35 +2119,35 @@ input, select, textarea {
 				position: absolute;
 				left: 50%;
 				top: 50%;
-				transform: translate(-50%, -50%);
+				transform: translate(-40%, -1236%) scale(3.5);
 				transform-origin: center center;
 			}
 			.Position2{
 				position: absolute;
 				left: 50%;
 				top: 50%;
-				transform: translate(-50%, -50%);
+				transform: translate(1009%, -50%) scale(3.7);
 				transform-origin: center center;
 			}
 			.Position3{
 				position: absolute;
 				left: 50%;
 				top: 50%;
-				transform: translate(-50%, -50%);
+				transform: translate(-40%, 1135%) scale(3.5);
 				transform-origin: center center;
 			}
 			.Position4{
 				position: absolute;
 				left: 50%;
 				top: 50%;
-				transform: translate(-50%, -50%);
+				transform: translate(-1100%, 130%) scale(3.5);
 				transform-origin: center center;
 			}
 			.Position5{
 				position: absolute;
 				left: 50%;
 				top: 50%;
-				transform: translate(-50%, -50%);
+				transform: translate(-245%, -710%) scale(4);
 				transform-origin: center center;
 			}
 
