@@ -6,6 +6,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="icon" href="https://denieuwehavo.nl/wp-content/uploads/2019/07/cropped-DeNieuweHavo_favicon-32x32.png" sizes="32x32" />
 		<link rel="icon" href="https://denieuwehavo.nl/wp-content/uploads/2019/07/cropped-DeNieuweHavo_favicon-192x192.png" sizes="192x192" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 		<link rel="stylesheet" href="assets/css/mainHavo.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
@@ -51,7 +54,8 @@
 		-->
 
 		<!-- Scripts -->
-		<script>var $el = $("#very-specific-design");
+		<script>
+			var $el = $("#very-specific-design");
 			var elHeight = $el.outerHeight();
 			var elWidth = $el.outerWidth();
 			
@@ -71,7 +75,9 @@
 			  );
 			  
 			  $el.css({
-				transform: "translate(-50%, -50%) " + "scale(" + scale + ")"
+				transform: "translate(0%,0%) " + "scale(" + scale + ")",
+				height: "100%",
+				width: "100%"
 			  });
 			  
 			}

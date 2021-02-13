@@ -8,7 +8,7 @@ $wrapper.resizable({
   resize: doResize
 });
 
-function doResize(event, ui) {
+function doResize(event, ui) { 
   
   var scale, origin;
     
