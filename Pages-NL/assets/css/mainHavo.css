@@ -2112,8 +2112,11 @@ input, select, textarea {
 				user-select: none;
 			}
 			.position1{
-				position: relative;
-				width: 100%;
+				position: absolute;
+				left:0;
+				right:0;
+				margin:0 auto;
+				border: solid;
 			}
 			.main.style1 > .content {
 				-moz-transition: opacity 1s ease;
