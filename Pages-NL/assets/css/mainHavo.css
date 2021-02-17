@@ -2085,7 +2085,7 @@ input, select, textarea {
 			.spiralContent{
 				display: block;
 				position: relative;
-				height: calc(1900px/2);
+				height: 100%;
 				width: auto;
 				max-width: 1920px;
 				top: 50%;
@@ -2116,6 +2116,10 @@ input, select, textarea {
 				height: 100px; 
 				margin: -50px;
 				border-radius: 50px;
+			}
+			.position1::before{
+				content: "";
+				margin-top: 100%;   /* initial ratio of 1:1*/
 			}
 			.main.style1 > .content {
 				-moz-transition: opacity 1s ease;
