@@ -2085,7 +2085,7 @@ input, select, textarea {
 			.spiralContent{
 				display: block;
 				position: relative;
-				height: calc(1920px/2);
+				height: calc(1900px/2);
 				width: auto;
 				max-width: 1920px;
 				top: 50%;
