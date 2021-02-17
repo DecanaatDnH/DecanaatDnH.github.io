@@ -49,11 +49,13 @@
 				
 				$wrapper.resizable({
 				  resize: doResize
-				  
 				});
 				
 				function doResize(event, ui) {
-				  
+				  $wrapper.css({
+					  width: "100%",
+					  height: "100%"
+				  })
 				  var scale, origin;
 				  scale = Math.min(
 					ui.size.width / elWidth,    
@@ -61,7 +63,9 @@
 				  );
 				  
 				  $el.css({
-					transform: "scale(" + scale + ")"
+					transform: "scale(" + scale + ")",
+					width: "100%",
+					  height: "100%"
 				  });
 				}
 				
