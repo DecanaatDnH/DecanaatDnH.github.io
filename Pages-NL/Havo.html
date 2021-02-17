@@ -40,7 +40,8 @@
 		-->
 
 		<!-- Scripts -->
-			<script>var $el = $("#very-specific-design");
+			<script>
+				var $el = $("#very-specific-design");
 				var elHeight = $el.outerHeight();
 				var elWidth = $el.outerWidth();
 				
@@ -48,6 +49,7 @@
 				
 				$wrapper.resizable({
 				  resize: doResize
+				  
 				});
 				
 				function doResize(event, ui) {
