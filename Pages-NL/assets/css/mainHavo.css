@@ -2110,12 +2110,59 @@ input, select, textarea {
 			}
 			.position1{
 				position: absolute;   
-				top: 50%;   
+				transform-origin: center center;
+				top: 7.8%;
 				left: 50%;
-				width: 100px; 
-				height: 100px; 
+				transform: scale(1.2);
 				margin: -50px;
 				border-radius: 50px;
+			}
+			/*Screen 4K*/
+			@media screen and (max-width: 2560px) {
+				.position1{ transform: scale(1.2); }
+			}
+			/*laptop L*/
+			@media screen and (max-width: 1440px) {
+				.position1{ transform: scale(1.2); }
+			}
+			/*laptop*/
+			@media screen and (max-width: 1024px) {
+				.position1{ transform: scale(1.2); }
+			}
+			/*tablet*/
+			@media screen and (max-width: 768px) {
+				.spiralContent{ transform: translate(-50%, -50%) scale(0.8); }
+				.position1{ top: 16.2%; transform: scale(1);}
+			}
+			/*Big layout change*/
+			/*Mobile L*/
+			@media screen and (max-width: 425px) {
+				.spiralContent{
+					height: auto;
+					width: 100%;
+					top: 0%;
+					left: 50%;
+					transform: translate(-50%);
+				}
+				.position1{
+					position: unset;
+					transform: scale(1);
+					width: 90%;
+					height: 10ch;
+					margin-top: 10%;
+					margin-left: 5%;
+					margin-right: 0px;
+					margin-bottom: 0px;
+					border-radius: 10px;
+				}
+			}
+			/*Mobile M*/
+			@media screen and (max-width: 375px) {
+				
+			}
+			/*Mobile M*/
+			@media screen and (max-width: 320px) {
+				
 			}
 			.position1::before{
 				content: "";
