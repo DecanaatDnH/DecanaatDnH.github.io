@@ -583,9 +583,6 @@ input, select, textarea {
 		  width: 50%;
 		  height: 100%;
 	}
-	.size{
-		
-	}
 
 	@media screen and (max-width: 736px) {
 
@@ -2262,10 +2259,6 @@ input, select, textarea {
 
 				.main.dark .button.style2:active {
 					background-color: rgba(255, 255, 255, 0.25);
-				}
-
-				.main.dark .button.style2.down {
-					/*background-image: url("images/dark-arrow.svg");*/
 				}
 
 		body.is-touch .main {
