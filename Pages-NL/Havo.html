@@ -12,11 +12,11 @@
 		<link rel="stylesheet" href="assets/css/mainHavo.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body class="is-preload" style="overflow: auto;">
+	<body onresize="myFunction()" class="is-preload" style="overflow: auto;">
 		<!-- Intro -->
 		<div id="scaleable-wrapper" style="width: 100%; height: 100%;">	
 			<div id="very-specific-design" style="width: 100%; height: 100%;">
-				<img src="images/DeNieuweHavo_favicon.png" alt="DnH" class="imgDropShadow spiralContent">	
+				<img id="OnWitdhHeight"src="images/DeNieuweHavo_favicon.png" alt="DnH" class="imgDropShadow spiralContent">	
 				<a class="SpiralButton position1" href="#">Content 1</a>
 			</div>
 			
@@ -78,6 +78,23 @@
 				
 				doResize(null, starterData);
 				
+				
+			</script>
+			<script>
+				function myFunction(){
+					if (window.screen.width < window.screen.height) 
+					{
+						console.log("Width is smaller now");
+						document.getElementById("OnWitdhHeight").style.height = "auto";
+						document.getElementById("OnWitdhHeight").style.width = "100%";
+					}
+					if (window.screen.width > window.screen.height) 
+					{
+						console.log("Width is bigger now");
+						document.getElementById("OnWitdhHeight").style.height = "100%";
+						document.getElementById("OnWitdhHeight").style.width = "auto";
+					}
+				}
 				
 			</script>
 			<script src="assets/js/jquery.min.js"></script>
