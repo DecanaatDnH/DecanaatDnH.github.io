@@ -2117,29 +2117,94 @@ input, select, textarea {
 				margin: -50px;
 				border-radius: 50px;
 			}
+			.position2{
+				position: absolute;   
+				transform-origin: center center;
+				top: 50%;
+				left: 76%;
+				transform: scale(1.2);
+				margin: -50px;
+				border-radius: 50px;
+			}
+			.position3{
+				position: absolute;   
+				transform-origin: center center;
+				top: 92.2%;
+				left: 50%;
+				transform: scale(1.2);
+				margin: -50px;
+				border-radius: 50px;
+			}
+			.position4{
+				position: absolute;   
+				transform-origin: center center;
+				top: 56%;
+				left: 24.3%;
+				transform: scale(1.2);
+				margin: -50px;
+				border-radius: 50px;
+			}
+			.position5{
+				position: absolute;   
+				transform-origin: center center;
+				top: 26.6%;
+				left: 45%;
+				transform: scale(1.2);
+				margin: -50px;
+				border-radius: 50px;
+			}
+			.position6{
+				position: absolute;   
+				transform-origin: center center;
+				top: 53.4%;
+				left: 63.9%;
+				transform: scale(1.3);
+				margin: -50px;
+				border-radius: 50px;
+			}
 			/*Values from: https://www.hobo-web.co.uk/best-screen-size/ */
 			/*Screen 4K*/
 			@media screen and (max-width: 2560px){
 				.position1{ transform: scale(1.8); }
+				.position2{ transform: scale(1.8); }
+				.position3{ transform: scale(1.8); }
+				.position4{ transform: scale(1.8); }
+				.position5{ transform: scale(1.8); }
+				.position6{ transform: scale(1.8); }
 			}
 			/*laptops*/
 			@media screen and (min-width: 1920px){
 				.position1{ transform: scale(1.3); }
+				.position2{ transform: scale(1.3); }
+				.position3{ transform: scale(1.3); }
+				.position4{ transform: scale(1.3); }
+				.position5{ transform: scale(1.3); }
+				.position6{ transform: scale(1.3); }
 			}
 			@media screen and (min-width: 1366px){
 				.position1{ transform: scale(1); }
+				.position2{ transform: scale(1); }
+				.position3{ transform: scale(1); }
+				.position4{ transform: scale(1); }
+				.position5{ transform: scale(1); }
+				.position6{ transform: scale(1); }
+			}
+			/*School computer size*/
+			@media screen and (max-width: 1280px) {
+				.position1{ transform: scale(1.1); }
+				.position2{ transform: scale(1.1); }
+				.position3{ transform: scale(1.1); }
+				.position4{ transform: scale(1.1); }
+				.position5{ transform: scale(1.2); }
+				.position6{ transform: scale(1.3); }
 			}
 			@media screen and (max-width: 1024px) {
 				.position1{ transform: scale(1.2); }
-			}
-			@media screen and (min-width: 1920px){
-				.position1{ transform: scale(1.3); }
-			}
-			@media screen and (min-width: 1366px){
-				.position1{ transform: scale(1); }
-			}
-			@media screen and (max-width: 1024px) {
-				.position1{ transform: scale(1.2); }
+				.position2{ transform: scale(1.2); }
+				.position3{ transform: scale(1.2); }
+				.position4{ transform: scale(1.2); }
+				.position5{ transform: scale(1.2); }
+				.position6{ transform: scale(1.2); }
 			}
 			/*tablet*/
 			@media screen and (max-width: 768px) and (orientation: portrait) {
