@@ -2220,8 +2220,8 @@ input, select, textarea {
 				.container{ transform: translate(-50%, -50%) scale(0.8); }
 			}
 			/*Big layout change*/
-			/*Mobile L*/
-			@media screen and (max-width: 425px) and (orientation: portrait) {
+			/*Mobile L
+			@media screen and (max-width: 425px) and (orientation: portrait) {*/
 				.container{
 					height: auto;
 					width: 100%;
@@ -2229,11 +2229,11 @@ input, select, textarea {
 					left: 50%;
 					transform: translate(-50%);
 				}
-				.position1, .position2, .position3,
-				.position4, .position5, .position6,
-				.position7, .position8, .position9,
-				.position10, .position11, .position12,
-				.position13, .position14, .position15
+				.Mposition1, .Mposition2, .Mposition3,
+				.Mposition4, .Mposition5, .Mposition6,
+				.Mposition7, .Mposition8, .Mposition9,
+				.Mposition10, .Mposition11, .Mposition12,
+				.Mposition13, .Mposition14, .Mposition15
 				{
 					position: unset;
 					transform: scale(1);
@@ -2245,8 +2245,8 @@ input, select, textarea {
 					margin-bottom: 0px;
 					border-radius: 10px;
 				}
-			}
-			@media screen and (max-width: 425px) and (orientation: landscape) {
+			/*}
+			@media screen and (max-width: 425px) and (orientation: landscape) {*/
 				.spiralContent{
 					height: 100%;
 					width: auto;
@@ -2254,11 +2254,11 @@ input, select, textarea {
 					left: 50%;
 					transform: translate(-50%);
 				}
-				.position1, .position2, .position3,
-				.position4, .position5, .position6,
-				.position7, .position8, .position9,
-				.position10, .position11, .position12,
-				.position13, .position14, .position15
+				.Mposition1, .Mposition2, .Mposition3,
+				.Mposition4, .Mposition5, .Mposition6,
+				.Mposition7, .Mposition8, .Mposition9,
+				.Mposition10, .Mposition11, .Mposition12,
+				.Mposition13, .Mposition14, .Mposition15
 				{
 					position: unset;
 					transform: scale(1);
@@ -2270,7 +2270,7 @@ input, select, textarea {
 					margin-bottom: 0px;
 					border-radius: 10px;
 				}
-			}
+			/*}*/
 			/*Mobile M*/
 			@media screen and (max-width: 375px) {
 				
