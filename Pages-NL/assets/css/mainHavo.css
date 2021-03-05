@@ -2215,15 +2215,13 @@ input, select, textarea {
 			/*tablet*/
 			@media screen and (max-width: 768px) and (orientation: portrait) {
 				.container{ transform: translate(-50%, -50%) scale(1); }
-				.position1{ top: 16.2%; transform: scale(1);}
 			}
 			@media screen and (max-width: 768px) and (orientation: landscape) {
 				.container{ transform: translate(-50%, -50%) scale(0.8); }
-				.position1{ top: 16.2%; transform: scale(1);}
 			}
 			/*Big layout change*/
-			/*Mobile L
-			@media screen and (max-width: 425px) and (orientation: portrait) {*/
+			/*Mobile L*/
+			@media screen and (max-width: 425px) and (orientation: portrait) {
 				.container{
 					height: auto;
 					width: 100%;
@@ -2231,18 +2229,12 @@ input, select, textarea {
 					left: 50%;
 					transform: translate(-50%);
 				}
-<<<<<<< HEAD
-<<<<<<< HEAD
-				.Mposition1, .Mposition2, .Mposition3,
-				.Mposition4, .Mposition5, .Mposition6,
-				.Mposition7, .Mposition8, .Mposition9,
-				.Mposition10, .Mposition11, .Mposition12,
-				.Mposition13, .Mposition14, .Mposition15
+				.position1, .position2, .position3,
+				.position4, .position5, .position6,
+				.position7, .position8, .position9,
+				.position10, .position11, .position12,
+				.position13, .position14, .position15
 				{
-=======
-				.position1{
-=======
-				.position1{
 					position: unset;
 					transform: scale(1);
 					width: 90%;
@@ -2253,120 +2245,8 @@ input, select, textarea {
 					margin-bottom: 0px;
 					border-radius: 10px;
 				}
-				.position2{
-					position: unset;
-					transform: scale(1);
-					width: 90%;
-					height: 10ch;
-					margin-top: 10%;
-					margin-left: 5%;
-					margin-right: 0px;
-					margin-bottom: 0px;
-					border-radius: 10px;
-				}
-				.position3{
-					position: unset;
-					transform: scale(1);
-					width: 90%;
-					height: 10ch;
-					margin-top: 10%;
-					margin-left: 5%;
-					margin-right: 0px;
-					margin-bottom: 0px;
-					border-radius: 10px;
-				}
-				.position4{
-					position: unset;
-					transform: scale(1);
-					width: 90%;
-					height: 10ch;
-					margin-top: 10%;
-					margin-left: 5%;
-					margin-right: 0px;
-					margin-bottom: 0px;
-					border-radius: 10px;
-				}
-				.position5{
-					position: unset;
-					transform: scale(1);
-					width: 90%;
-					height: 10ch;
-					margin-top: 10%;
-					margin-left: 5%;
-					margin-right: 0px;
-					margin-bottom: 0px;
-					border-radius: 10px;
-				}
-				.position6{
->>>>>>> parent of 4c4fa2e (update)
-					position: unset;
-					transform: scale(1);
-					width: 90%;
-					height: 10ch;
-					margin-top: 10%;
-					margin-left: 5%;
-					margin-right: 0px;
-					margin-bottom: 0px;
-					border-radius: 10px;
-				}
-				.position2{
-					position: unset;
-					transform: scale(1);
-					width: 90%;
-					height: 10ch;
-					margin-top: 10%;
-					margin-left: 5%;
-					margin-right: 0px;
-					margin-bottom: 0px;
-					border-radius: 10px;
-				}
-				.position3{
-					position: unset;
-					transform: scale(1);
-					width: 90%;
-					height: 10ch;
-					margin-top: 10%;
-					margin-left: 5%;
-					margin-right: 0px;
-					margin-bottom: 0px;
-					border-radius: 10px;
-				}
-				.position4{
-					position: unset;
-					transform: scale(1);
-					width: 90%;
-					height: 10ch;
-					margin-top: 10%;
-					margin-left: 5%;
-					margin-right: 0px;
-					margin-bottom: 0px;
-					border-radius: 10px;
-				}
-				.position5{
-					position: unset;
-					transform: scale(1);
-					width: 90%;
-					height: 10ch;
-					margin-top: 10%;
-					margin-left: 5%;
-					margin-right: 0px;
-					margin-bottom: 0px;
-					border-radius: 10px;
-				}
-				.position6{
->>>>>>> parent of 4c4fa2e (update)
-					position: unset;
-					transform: scale(1);
-					width: 90%;
-					height: 10ch;
-					margin-top: 10%;
-					margin-left: 5%;
-					margin-right: 0px;
-					margin-bottom: 0px;
-					border-radius: 10px;
-				}
-			/*}
-			@media screen and (max-width: 425px) and (orientation: landscape) {*/
+			}
+			@media screen and (max-width: 425px) and (orientation: landscape) {
 				.spiralContent{
 					height: 100%;
 					width: auto;
@@ -2374,20 +2254,12 @@ input, select, textarea {
 					left: 50%;
 					transform: translate(-50%);
 				}
-<<<<<<< HEAD
-<<<<<<< HEAD
-				.Mposition1, .Mposition2, .Mposition3,
-				.Mposition4, .Mposition5, .Mposition6,
-				.Mposition7, .Mposition8, .Mposition9,
-				.Mposition10, .Mposition11, .Mposition12,
-				.Mposition13, .Mposition14, .Mposition15
+				.position1, .position2, .position3,
+				.position4, .position5, .position6,
+				.position7, .position8, .position9,
+				.position10, .position11, .position12,
+				.position13, .position14, .position15
 				{
-=======
-				.position1{
->>>>>>> parent of 4c4fa2e (update)
-=======
-				.position1{
->>>>>>> parent of 4c4fa2e (update)
 					position: unset;
 					transform: scale(1);
 					width: 90%;
@@ -2398,7 +2270,7 @@ input, select, textarea {
 					margin-bottom: 0px;
 					border-radius: 10px;
 				}
-			/*}*/
+			}
 			/*Mobile M*/
 			@media screen and (max-width: 375px) {
 				
@@ -2406,10 +2278,6 @@ input, select, textarea {
 			/*Mobile M*/
 			@media screen and (max-width: 320px) {
 				
-			}
-			.position1::before{
-				content: "";
-				margin-top: 100%;   /* initial ratio of 1:1*/
 			}
 			.main.style1 > .content {
 				-moz-transition: opacity 1s ease;
