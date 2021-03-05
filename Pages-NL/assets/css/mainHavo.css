@@ -2232,6 +2232,7 @@ input, select, textarea {
 					transform: translate(-50%);
 				}
 <<<<<<< HEAD
+<<<<<<< HEAD
 				.Mposition1, .Mposition2, .Mposition3,
 				.Mposition4, .Mposition5, .Mposition6,
 				.Mposition7, .Mposition8, .Mposition9,
@@ -2240,6 +2241,64 @@ input, select, textarea {
 				{
 =======
 				.position1{
+=======
+				.position1{
+					position: unset;
+					transform: scale(1);
+					width: 90%;
+					height: 10ch;
+					margin-top: 10%;
+					margin-left: 5%;
+					margin-right: 0px;
+					margin-bottom: 0px;
+					border-radius: 10px;
+				}
+				.position2{
+					position: unset;
+					transform: scale(1);
+					width: 90%;
+					height: 10ch;
+					margin-top: 10%;
+					margin-left: 5%;
+					margin-right: 0px;
+					margin-bottom: 0px;
+					border-radius: 10px;
+				}
+				.position3{
+					position: unset;
+					transform: scale(1);
+					width: 90%;
+					height: 10ch;
+					margin-top: 10%;
+					margin-left: 5%;
+					margin-right: 0px;
+					margin-bottom: 0px;
+					border-radius: 10px;
+				}
+				.position4{
+					position: unset;
+					transform: scale(1);
+					width: 90%;
+					height: 10ch;
+					margin-top: 10%;
+					margin-left: 5%;
+					margin-right: 0px;
+					margin-bottom: 0px;
+					border-radius: 10px;
+				}
+				.position5{
+					position: unset;
+					transform: scale(1);
+					width: 90%;
+					height: 10ch;
+					margin-top: 10%;
+					margin-left: 5%;
+					margin-right: 0px;
+					margin-bottom: 0px;
+					border-radius: 10px;
+				}
+				.position6{
+>>>>>>> parent of 4c4fa2e (update)
 					position: unset;
 					transform: scale(1);
 					width: 90%;
@@ -2316,12 +2375,16 @@ input, select, textarea {
 					transform: translate(-50%);
 				}
 <<<<<<< HEAD
+<<<<<<< HEAD
 				.Mposition1, .Mposition2, .Mposition3,
 				.Mposition4, .Mposition5, .Mposition6,
 				.Mposition7, .Mposition8, .Mposition9,
 				.Mposition10, .Mposition11, .Mposition12,
 				.Mposition13, .Mposition14, .Mposition15
 				{
+=======
+				.position1{
+>>>>>>> parent of 4c4fa2e (update)
 =======
 				.position1{
 >>>>>>> parent of 4c4fa2e (update)
