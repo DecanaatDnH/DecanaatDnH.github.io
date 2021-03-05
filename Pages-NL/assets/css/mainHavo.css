@@ -2215,9 +2215,11 @@ input, select, textarea {
 			/*tablet*/
 			@media screen and (max-width: 768px) and (orientation: portrait) {
 				.container{ transform: translate(-50%, -50%) scale(1); }
+				.position1{ top: 16.2%; transform: scale(1);}
 			}
 			@media screen and (max-width: 768px) and (orientation: landscape) {
 				.container{ transform: translate(-50%, -50%) scale(0.8); }
+				.position1{ top: 16.2%; transform: scale(1);}
 			}
 			/*Big layout change*/
 			/*Mobile L
