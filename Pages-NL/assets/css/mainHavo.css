@@ -2231,62 +2231,12 @@ input, select, textarea {
 					left: 50%;
 					transform: translate(-50%);
 				}
-				.position1{
-					position: unset;
-					transform: scale(1);
-					width: 90%;
-					height: 10ch;
-					margin-top: 10%;
-					margin-left: 5%;
-					margin-right: 0px;
-					margin-bottom: 0px;
-					border-radius: 10px;
-				}
-				.position2{
-					position: unset;
-					transform: scale(1);
-					width: 90%;
-					height: 10ch;
-					margin-top: 10%;
-					margin-left: 5%;
-					margin-right: 0px;
-					margin-bottom: 0px;
-					border-radius: 10px;
-				}
-				.position3{
-					position: unset;
-					transform: scale(1);
-					width: 90%;
-					height: 10ch;
-					margin-top: 10%;
-					margin-left: 5%;
-					margin-right: 0px;
-					margin-bottom: 0px;
-					border-radius: 10px;
-				}
-				.position4{
-					position: unset;
-					transform: scale(1);
-					width: 90%;
-					height: 10ch;
-					margin-top: 10%;
-					margin-left: 5%;
-					margin-right: 0px;
-					margin-bottom: 0px;
-					border-radius: 10px;
-				}
-				.position5{
-					position: unset;
-					transform: scale(1);
-					width: 90%;
-					height: 10ch;
-					margin-top: 10%;
-					margin-left: 5%;
-					margin-right: 0px;
-					margin-bottom: 0px;
-					border-radius: 10px;
-				}
-				.position6{
+				.position1, .position2, .position3,
+				.position4, .position5, .position6,
+				.position7, .position8, .position9,
+				.position10, .position11, .position12,
+				.position13, .position14, .position15
+				{
 					position: unset;
 					transform: scale(1);
 					width: 90%;
@@ -2306,7 +2256,12 @@ input, select, textarea {
 					left: 50%;
 					transform: translate(-50%);
 				}
-				.position1{
+				.position1, .position2, .position3,
+				.position4, .position5, .position6,
+				.position7, .position8, .position9,
+				.position10, .position11, .position12,
+				.position13, .position14, .position15
+				{
 					position: unset;
 					transform: scale(1);
 					width: 90%;
@@ -2325,10 +2280,6 @@ input, select, textarea {
 			/*Mobile M*/
 			@media screen and (max-width: 320px) {
 				
-			}
-			.position1::before{
-				content: "";
-				margin-top: 100%;   /* initial ratio of 1:1*/
 			}
 			.main.style1 > .content {
 				-moz-transition: opacity 1s ease;
