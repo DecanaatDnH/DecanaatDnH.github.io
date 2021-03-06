@@ -33,6 +33,7 @@ body{
   	scrollbar-width: hidden;  /* Firefox */
 	overflow: hidden;
 }
+html, body {margin: 0; height: 100%; overflow: hidden}
 body::-webkit-scrollbar {
     display: none;
 }
