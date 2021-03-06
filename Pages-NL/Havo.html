@@ -19,18 +19,21 @@
 				<div class="container">
 					<img id="OnWitdhHeight"src="images/DeNieuweHavo_favicon.png" alt="DnH" class="imgDropShadow spiralContent">	
 					<div class="ChildContainer">
-						<a class="SpiralButton buttonBase position1" href="#">Content 1</a>
-						<a class="SpiralButton buttonBase position2" href="#">Content 2</a>
-						<a class="SpiralButton buttonBase position3" href="#">Content 3</a>
-						<a class="SpiralButton buttonBase position4" href="#">Content 4</a>
-						<a class="SpiralButton buttonBase position5" href="#">Content 5</a>
-						<a class="SpiralButton buttonBase position6" href="#">Content 6</a>
-						<a class="SpiralButton buttonBase position4" href="#">Content 2</a>
-						<a class="SpiralButton buttonBase position7" href="#">Content 3</a>
-						<a class="SpiralButton buttonBase position10" href="#">Content 4</a>
-						<a class="SpiralButton buttonBase position12" href="#">Content 5</a>
-						<a class="SpiralButton buttonBase position13" href="#">Content 6</a>
-						<a class="SpiralButton buttonBase position14" href="#">Content 7</a>
+						<a id="mobileChange1" class="SpiralButton buttonBase position1" href="#">Content 1</a>
+						<a id="mobileChange2" class="SpiralButton buttonBase position2 hide" href="#">Content 2</a>
+						<a id="mobileChange3" class="SpiralButton buttonBase position3 hide" href="#">Content 3</a>
+						<a id="mobileChange4" class="SpiralButton buttonBase position4" href="#">Content 4</a>
+						<a id="mobileChange5" class="SpiralButton buttonBase position5 hide" href="#">Content 5</a>
+						<a id="mobileChange6" class="SpiralButton buttonBase position6 hide" href="#">Content 6</a>
+						<a id="mobileChange7" class="SpiralButton buttonBase position7" href="#">Content 7</a>
+						<a id="mobileChange8" class="SpiralButton buttonBase position8 hide" href="#">Content 8</a>
+						<a id="mobileChange9" class="SpiralButton buttonBase position9 hide" href="#">Content 9</a>
+						<a id="mobileChange10" class="SpiralButton buttonBase position10" href="#">Content 10</a>
+						<a id="mobileChange11" class="SpiralButton buttonBase position11 hide" href="#">Content 11</a>
+						<a id="mobileChange12" class="SpiralButton buttonBase position12" href="#">Content 12</a>
+						<a id="mobileChange13" class="SpiralButton buttonBase position13" href="#">Content 13</a>
+						<a id="mobileChange14" class="SpiralButton buttonBase position14" href="#">Content 14</a>
+						<a id="mobileChange15" class="SpiralButton buttonBase position15 hide" href="#">Content 15</a>
 					</div>
 				</div>
 			</div>
@@ -95,12 +98,72 @@
 				function myFunction(){
 					if (window.screen.width < window.screen.height) 
 					{
+						document.getElementById("mobileChange1").classList.remove("position1");
+						document.getElementById("mobileChange1").classList.add("Mposition1");
+						document.getElementById("mobileChange2").classList.remove("position2");
+						document.getElementById("mobileChange2").classList.add("Mposition2");
+						document.getElementById("mobileChange3").classList.remove("position3");
+						document.getElementById("mobileChange3").classList.add("Mposition3");
+						document.getElementById("mobileChange4").classList.remove("position4");
+						document.getElementById("mobileChange4").classList.add("Mposition4");
+						document.getElementById("mobileChange5").classList.remove("position5");
+						document.getElementById("mobileChange5").classList.add("Mposition5");
+						document.getElementById("mobileChange6").classList.remove("position6");
+						document.getElementById("mobileChange6").classList.add("Mposition6");
+						document.getElementById("mobileChange7").classList.remove("position7");
+						document.getElementById("mobileChange7").classList.add("Mposition7");
+						document.getElementById("mobileChange8").classList.remove("position8");
+						document.getElementById("mobileChange8").classList.add("Mposition8");
+						document.getElementById("mobileChange9").classList.remove("position9");
+						document.getElementById("mobileChange9").classList.add("Mposition9");
+						document.getElementById("mobileChange10").classList.remove("position10");
+						document.getElementById("mobileChange10").classList.add("Mposition10");
+						document.getElementById("mobileChange11").classList.remove("position11");
+						document.getElementById("mobileChange11").classList.add("Mposition11");
+						document.getElementById("mobileChange12").classList.remove("position12");
+						document.getElementById("mobileChange12").classList.add("Mposition12");
+						document.getElementById("mobileChange13").classList.remove("position13");
+						document.getElementById("mobileChange13").classList.add("Mposition13");
+						document.getElementById("mobileChange14").classList.remove("position14");
+						document.getElementById("mobileChange14").classList.add("Mposition14");
+						document.getElementById("mobileChange15").classList.remove("position15");
+						document.getElementById("mobileChange15").classList.add("Mposition15");
 						console.log("Width is smaller now");
 						document.getElementById("OnWitdhHeight").style.height = "auto";
 						document.getElementById("OnWitdhHeight").style.width = "100%";
 					}
 					if (window.screen.width > window.screen.height) 
 					{
+						document.getElementById("mobileChange1").classList.add("position1");
+						document.getElementById("mobileChange1").classList.remove("Mposition1");
+						document.getElementById("mobileChange2").classList.add("position2");
+						document.getElementById("mobileChange2").classList.remove("Mposition2");
+						document.getElementById("mobileChange3").classList.add("position3");
+						document.getElementById("mobileChange3").classList.remove("Mposition3");
+						document.getElementById("mobileChange4").classList.add("position4");
+						document.getElementById("mobileChange4").classList.remove("Mposition4");
+						document.getElementById("mobileChange5").classList.add("position5");
+						document.getElementById("mobileChange5").classList.remove("Mposition5");
+						document.getElementById("mobileChange6").classList.add("position6");
+						document.getElementById("mobileChange6").classList.remove("Mposition6");
+						document.getElementById("mobileChange7").classList.add("position7");
+						document.getElementById("mobileChange7").classList.remove("Mposition7");
+						document.getElementById("mobileChange8").classList.add("position8");
+						document.getElementById("mobileChange8").classList.remove("Mposition8");
+						document.getElementById("mobileChange9").classList.add("position9");
+						document.getElementById("mobileChange9").classList.remove("Mposition9");
+						document.getElementById("mobileChange10").classList.add("position10");
+						document.getElementById("mobileChange10").classList.remove("Mposition10");
+						document.getElementById("mobileChange11").classList.add("position11");
+						document.getElementById("mobileChange11").classList.remove("Mposition11");
+						document.getElementById("mobileChange12").classList.add("position12");
+						document.getElementById("mobileChange12").classList.remove("Mposition12");
+						document.getElementById("mobileChange13").classList.add("position13");
+						document.getElementById("mobileChange13").classList.remove("Mposition13");
+						document.getElementById("mobileChange14").classList.add("position14");
+						document.getElementById("mobileChange14").classList.remove("Mposition14");
+						document.getElementById("mobileChange15").classList.add("position15");
+						document.getElementById("mobileChange15").classList.remove("Mposition15");
 						console.log("Width is bigger now");
 						document.getElementById("OnWitdhHeight").style.height = "100%";
 						document.getElementById("OnWitdhHeight").style.width = "auto";
