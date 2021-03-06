@@ -2220,13 +2220,88 @@ input, select, textarea {
 				}
 			/*Values from: https://www.hobo-web.co.uk/best-screen-size/ */
 			/*Screen 4K*/
+			@media screen and (max-width: 3840px){
+				.position1,.position2,.position3,
+				.position4,.position5,.position6,
+				.position7,.position8,.position9,
+				.position10,.position11{
+					transform: scale(2);
+				}
+				.position12{
+					transform: scale(2.2);
+				}
+				.position13{
+					transform: scale(2.3);
+				}
+				.position14{
+					transform: scale(2.3);
+				}
+				.position15{
+					transform: scale(2.2);
+				}
+			}
+			/*Screen 2K*/
 			@media screen and (max-width: 2560px){
+				.position1,.position2,.position3,
+				.position4,.position5,.position6,
+				.position7,.position8,.position9,
+				.position10,.position11{
+					transform: scale(1.8);
+				}
+				.position12{
+					transform: scale(2);
+				}
+				.position13{
+					transform: scale(2.1);
+				}
+				.position14{
+					transform: scale(2.1);
+				}
+				.position15{
+					transform: scale(2);
+				}
 			}
 			/*laptops*/
-			@media screen and (min-width: 1920px){
+			@media screen and (max-width: 1920px){
+				.position1,.position2,.position3,
+				.position4,.position5,.position6,
+				.position7,.position8,.position9,
+				.position10,.position11{
+					transform: scale(1.4);
+				}
+				.position12{
+					transform: scale(1.5);
+				}
+				.position13{
+					transform: scale(1.6);
+				}
+				.position14{
+					transform: scale(1.6);
+				}
+				.position15{
+					transform: scale(1.5);
+				}
 			}
 			/*School computer size*/
 			@media screen and (max-width: 1280px) {
+				.position1,.position2,.position3,
+				.position4,.position5,.position6,
+				.position7,.position8,.position9,
+				.position10,.position11{
+					transform: scale(0.9);
+				}
+				.position12{
+					transform: scale(1);
+				}
+				.position13{
+					transform: scale(1.1);
+				}
+				.position14{
+					transform: scale(1.1);
+				}
+				.position15{
+					transform: scale(1);
+				}
 				body{overflow: initial;}
 			}
 			/*tablet*/
@@ -2246,10 +2321,7 @@ input, select, textarea {
 					left: 50%;
 					transform: translate(-50%);
 				}
-				body
-				{
-					overflow: visible;
-				}
+				html, body {margin: 0; height: 100%; overflow: visible}
 				
 			}
 			@media screen and (max-width: 425px) and (orientation: landscape) {
