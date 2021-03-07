@@ -13,27 +13,36 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body onresize="myFunction()" class="is-preload">
+		<div id="NewBG" class="page-bg" style="
+		background-repeat: no-repeat;
+		 background-size: cover;
+		 opacity: 1.0;
+		-webkit-transition: background 0.5s ease-in-out;
+		-moz-transition: background 0.5s ease-in-out;
+		-o-transition: background 0.5s ease-in-out;
+		-ms-transition: background 0.5s ease-in-out;
+		transition: background 0.5s ease-in-out;"></div>
 		<!-- Intro -->
 		<div id="scaleable-wrapper" style="width: 100%; height: 100%;">	
 			<div id="very-specific-design" style="width: 100%; height: 100%; position: relative;">
 				<div class="container">
 					<img id="OnWitdhHeight"src="images/DeNieuweHavo_favicon.png" alt="DnH" class="imgDropShadow spiralContent">	
 					<div class="ChildContainer">
-						<a id="mobileChange1" class="SpiralButton buttonBase position1" href="#">Content 1</a>
-						<a id="mobileChange2" class="SpiralButton buttonBase position2 hide" href="#">Content 2</a>
-						<a id="mobileChange3" class="SpiralButton buttonBase position3 hide" href="#">Content 3</a>
-						<a id="mobileChange4" class="SpiralButton buttonBase position4" href="#">Content 4</a>
-						<a id="mobileChange5" class="SpiralButton buttonBase position5 hide" href="#">Content 5</a>
-						<a id="mobileChange6" class="SpiralButton buttonBase position6 hide" href="#">Content 6</a>
-						<a id="mobileChange7" class="SpiralButton buttonBase position7" href="#">Content 7</a>
-						<a id="mobileChange8" class="SpiralButton buttonBase position8 hide" href="#">Content 8</a>
-						<a id="mobileChange9" class="SpiralButton buttonBase position9 hide" href="#">Content 9</a>
-						<a id="mobileChange10" class="SpiralButton buttonBase position10" href="#">Content 10</a>
-						<a id="mobileChange11" class="SpiralButton buttonBase position11 hide" href="#">Content 11</a>
-						<a id="mobileChange12" class="SpiralButton buttonBase position12" href="#">Content 12</a>
-						<a id="mobileChange13" class="SpiralButton buttonBase position13" href="#">Content 13</a>
-						<a id="mobileChange14" class="SpiralButton buttonBase position14" href="#">Content 14</a>
-						<a id="mobileChange15" class="SpiralButton buttonBase position15 hide" href="#">Content 15</a>
+						<a onmouseover="ShowBGImg()" id="mobileChange1" class="SpiralButton buttonBase position1" href="#">Content 1</a>
+						<a onmouseover="ShowBGImg()" id="mobileChange2" class="SpiralButton buttonBase position2 hide" href="#">Content 2</a>
+						<a onmouseover="ShowBGImg()" id="mobileChange3" class="SpiralButton buttonBase position3 hide" href="#">Content 3</a>
+						<a onmouseover="ShowBGImg()" id="mobileChange4" class="SpiralButton buttonBase position4" href="#">Content 4</a>
+						<a onmouseover="ShowBGImg()" id="mobileChange5" class="SpiralButton buttonBase position5 hide" href="#">Content 5</a>
+						<a onmouseover="ShowBGImg()" id="mobileChange6" class="SpiralButton buttonBase position6 hide" href="#">Content 6</a>
+						<a onmouseover="ShowBGImg()" id="mobileChange7" class="SpiralButton buttonBase position7" href="#">Content 7</a>
+						<a onmouseover="ShowBGImg()" id="mobileChange8" class="SpiralButton buttonBase position8 hide" href="#">Content 8</a>
+						<a onmouseover="ShowBGImg()" id="mobileChange9" class="SpiralButton buttonBase position9 hide" href="#">Content 9</a>
+						<a onmouseover="ShowBGImg()" id="mobileChange10" class="SpiralButton buttonBase position10" href="#">Content 10</a>
+						<a onmouseover="ShowBGImg()" id="mobileChange11" class="SpiralButton buttonBase position11 hide" href="#">Content 11</a>
+						<a onmouseover="ShowBGImg()" id="mobileChange12" class="SpiralButton buttonBase position12" href="#">Content 12</a>
+						<a onmouseover="ShowBGImg()" id="mobileChange13" class="SpiralButton buttonBase position13" href="#">Content 13</a>
+						<a onmouseover="ShowBGImg()" id="mobileChange14" class="SpiralButton buttonBase position14" href="#">Content 14</a>
+						<a onmouseover="ShowBGImg()" id="mobileChange15" class="SpiralButton buttonBase position15 hide" href="#">Content 15</a>
 					</div>
 				</div>
 			</div>
@@ -170,6 +179,22 @@
 					}
 				}
 				
+			</script>
+			<script>
+				var lastNUm = 0;
+				function ShowBGImg() {
+					 randomnum = Math.floor(Math.random() * 7);
+					 if(lastNUm == randomnum){
+						console.log("same");
+						ShowBGImg();
+					 }
+					 lastNUm = randomnum;
+					 
+					let Img = ["images/All_DnH_img/DNH_les.jpg","images/All_DnH_img/DNH-lln-voor-school.jpg","images/All_DnH_img/MBU7090.jpg","images/All_DnH_img/800x532 (2).jpg","images/All_DnH_img/800x532.jpg","images/All_DnH_img/DeNieuweHavo_slidervervolg_2.jpg","images/All_DnH_img/DnH_klas.jpg"];
+
+					document.getElementById("NewBG").style.backgroundImage = "url(" + Img[randomnum] + ")"
+					console.log(randomnum);
+				}
 			</script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.poptrox.min.js"></script>
