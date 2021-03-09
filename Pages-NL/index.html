@@ -9,7 +9,7 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body class="is-preload" style="overflow: auto;">
+	<body onresize="myFunction()" class="is-preload" style="overflow: auto;">
 		<!-- Header -->
 			<header id="header">
 				<h1>DecanaatDnH</h1>
@@ -86,6 +86,23 @@
 				$('#DivToShow').css({'top':mouseY,'left':mouseX}).fadeIn('slow');
 			});
 		</script>
+			<script>
+				function myFunction(){
+					if (window.screen.width < window.screen.height) 
+					{
+						console.log("Width is smaller now");
+						document.getElementById("OnWitdhHeight").style.height = "auto";
+						document.getElementById("OnWitdhHeight").style.width = "100%";
+					}
+					if (window.screen.width > window.screen.height) 
+					{
+						console.log("Width is bigger now");
+						document.getElementById("OnWitdhHeight").style.height = "100%";
+						document.getElementById("OnWitdhHeight").style.width = "auto";
+					}
+				}
+				
+			</script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.poptrox.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
