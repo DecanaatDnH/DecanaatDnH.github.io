@@ -809,7 +809,7 @@ input, select, textarea {
 				transform: scale(1) translate(-58%,-37%);
 			}
 			.IntroText{
-				padding-bottom: 20%;
+				padding-bottom: 0%;
 			}
 			.IntroSection{
 				display: inline-block;
