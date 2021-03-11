@@ -567,7 +567,7 @@ input, select, textarea {
 
 	.introStyle h2, .introStyle a {
 		font-size: 2em;
-		line-height: 2em;
+		line-height: 200%;
 		letter-spacing: -0.05em;
 		color: #252525;
 		text-shadow: -1px 0 #ffffff, 0 1px#ffffff, 1px 0#ffffff, 0 -1px #ffffff;
