@@ -442,7 +442,7 @@ input, select, textarea {
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
-			color: #e5e6e7;
+			color: blueviolet;
 			content: '\f1ce';
 			cursor: default;
 			display: block;
