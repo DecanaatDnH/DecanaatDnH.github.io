@@ -2127,6 +2127,17 @@ input, select, textarea {
 				margin: -50px;
 				border-radius: 50px;
 			}
+			.buttonBase:hover{
+				transform: scale(1.3);
+			}
+			.buttonBase:hover.position12,
+			.buttonBase:hover.position15{
+				transform: scale(1.4);
+			}
+			.buttonBase:hover.position13,
+			.buttonBase:hover.position14{
+				transform: scale(1.5);
+			}
 			.position1{
 				top: 7.8%;
 				left: 50%;
