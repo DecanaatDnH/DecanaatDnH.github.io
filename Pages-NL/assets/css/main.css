@@ -1849,7 +1849,7 @@ input, select, textarea {
 			}
 
 		.gallery.inactive article {
-			opacity: 0;
+			opacity: 1;
 		}
 
 			.gallery.inactive article.from-left {
@@ -2121,7 +2121,7 @@ input, select, textarea {
 			}
 
 			.main.style1.inactive > .content {
-				opacity: 0;
+				opacity: 1;
 			}
 
 		.main.style2 {
