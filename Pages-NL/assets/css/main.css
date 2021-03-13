@@ -176,7 +176,7 @@ input, select, textarea {
 
 	@-moz-keyframes spinner-show {
 		0% {
-			opacity: 0;
+			opacity: 1;
 		}
 
 		100% {
@@ -186,7 +186,7 @@ input, select, textarea {
 
 	@-webkit-keyframes spinner-show {
 		0% {
-			opacity: 0;
+			opacity: 1;
 		}
 
 		100% {
@@ -196,7 +196,7 @@ input, select, textarea {
 
 	@-ms-keyframes spinner-show {
 		0% {
-			opacity: 0;
+			opacity: 1;
 		}
 
 		100% {
@@ -206,7 +206,7 @@ input, select, textarea {
 
 	@keyframes spinner-show {
 		0% {
-			opacity: 0;
+			opacity: 1;
 		}
 
 		100% {
