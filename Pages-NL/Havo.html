@@ -12,13 +12,18 @@
 	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 	<link rel="stylesheet" href="assets/css/mainHavo.css" />
+	<link rel="stylesheet" href="assets/css/transition.css" />
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
 	</noscript>
 </head>
 
 <body onresize="myFunction()" class="is-preload">
+
+	<div class="transition transition-1 is-active"></div>
+
 	<div id="NewBG" class="page-bg"></div>
+
 	<!-- Intro -->
 	<div id="scaleable-wrapper" style="width: 100%; height: 100%;">
 		<div id="very-specific-design" style="width: 100%; height: 100%; position: relative;">
@@ -46,21 +51,7 @@
 		</div>
 
 	</div>
-	<!-- Footer -->
-	<!--<footer id="footer">
-				 Icons 
-					<ul class="icons">
-						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-					</ul>
-				 Menu 
-					<ul class="menu">
-						<li>&copy; Untitled</li><li>Design: <a href="https://denieuwehavo.nl/">Kianniek Hamidi</a></li>
-					</ul>
-			</footer>
-		-->
-	<!-- Scripts -->
+
 	<script>
 		var $el = $("#very-specific-design");
 		var elHeight = $el.outerHeight();
@@ -200,6 +191,7 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script src="assets/js/loader.js"></script>
 </body>
 
 </html>

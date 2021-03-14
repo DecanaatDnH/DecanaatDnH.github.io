@@ -417,7 +417,49 @@ input, select, textarea {
 			z-index: -1;
 		}
 	}
+	@keyframes HideSmooth{
+		0% {
+			opacity: 1;
+		}
 
+		15% {
+			opacity: 1;
+		}
+
+		99% {
+			opacity: 0;
+		}
+
+		100% {
+			opacity: 0;
+			display: none;
+			visibility: hidden;
+		}
+	}
+	@-webkit-keyframes HideSmooth{
+		0% {
+			opacity: 1;
+		}
+
+		15% {
+			opacity: 1;
+		}
+
+		99% {
+			opacity: 0;
+		}
+
+		100% {
+			opacity: 0;
+			display: none;
+			visibility: hidden;
+		}
+	}
+	.animateTransitionOut{
+		animation: HideSmooth 1s;
+		-webkit-animation: HideSmooth 1s;
+		
+	}
 	body {
 		text-decoration: none;
 	}
