@@ -12,7 +12,11 @@ window.onload = () => {
             e.preventDefault();
             let target = e.target.href;
 
-            console.log(target);
+            transition_el.classList.add('is-active');
+
+            setTimeout(() => {
+                window.location.href = target;
+            }, 500);
         });
     }
 }
