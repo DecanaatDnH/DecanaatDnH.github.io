@@ -1942,7 +1942,14 @@ input, select, textarea {
 		}
 
 /* Header */
-
+	@keyframes moveUp{
+		0%{ top: 0;}
+		100%{ top: -69px;}
+	}
+	@-webkit-keyframes moveUp{
+		0%{ top: 0;}
+		100%{ top: -69px;}
+	}
 	.header {
 		position: fixed;
 		z-index: 100;
@@ -1954,7 +1961,10 @@ input, select, textarea {
 		line-height: 3em;
 		box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.5);
 	}
-	
+	.header.is-Nactive{
+		animation: moveUp 0.3s;
+		-webkit-animation: moveUp 0.3s;
+	}
 
 		.header h1 {
 			position: relative;
