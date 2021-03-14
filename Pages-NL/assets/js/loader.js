@@ -13,6 +13,6 @@ window.onload = () => {
             let target = e.target.href;
 
             console.log(target);
-        })
+        });
     }
 }
