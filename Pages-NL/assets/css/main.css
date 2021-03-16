@@ -835,9 +835,8 @@ input, select, textarea {
 				left: 50%;
 			}
 			.MidButton {
-				background-color: black;
-    			box-shadow: 0 0 3px 10px black;
-				color: white;
+				background-color: #181818;
+    			box-shadow: 0 0 3px 10px #181818;
 				padding: 32px 32px;
 				text-align: center;
 				text-decoration: none;
@@ -849,6 +848,11 @@ input, select, textarea {
 				border-radius: 50%;
 				cursor: pointer;
 				transform: scale(1) translate(-58%,-37%);
+				transition: 0.5s ease-in-out;
+			}
+			.MidButton:hover{
+				background-color: #18181850;
+    			box-shadow: 0 0 0px 10px #181818;
 			}
 			.IntroText{
 				padding-bottom: 0%;
