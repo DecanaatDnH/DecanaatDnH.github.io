@@ -2101,7 +2101,7 @@ input, select, textarea {
 				height: 100%;
 			}
 			.spiralContent{
-				width: 100%;
+				width: auto;
 				height: 100%;
 			}
 			.SpiralButton{
@@ -2116,10 +2116,20 @@ input, select, textarea {
 				color: #ffffff;
 				cursor: auto;
 				display: inline-block;
+				font-size: large;
 				text-align: center;
-				padding-top: 2.5%;
-				position: relative;
-				user-select: none;
+				vertical-align: middle;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				line-height: 2ch;
+				padding-bottom: 0.7%;
+				text-decoration: none;
+				position: relative;				
+			}
+			.SpiralButton:hover{
+				transition: ease-in 0.1ms;
+				text-decoration: underline;
 			}
 			.buttonBase{
 				position: absolute;   
