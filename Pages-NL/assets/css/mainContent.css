@@ -21,12 +21,29 @@
 .title{
 	width: 100%;
 	height: 110%;
-	background-color: rgb(255, 255, 255);
-	background-size: cover;
 	text-align: center;
-	
 }
 .title h1{
 	padding: 2.5% 20% 2.5% 20%;
 	
+}
+.styleBack p, .styleBack h1
+{
+	background-color: rgb(255, 255, 255);
+	background-size: cover;
+	padding: 1% 1% 1% 1%;
+	border-radius: 5px 5px;
+}
+.left{
+	max-width: 50ch;
+	left: 30%;
+}
+.right{
+	max-width: 50ch;
+	right: 0%;
+}
+.TopImg{
+	transform: translate(675%, 0);
+	height: auto;
+	width: 7%;
 }
