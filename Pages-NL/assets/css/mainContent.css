@@ -1,6 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("fontawesome-all.min.css");
-
+ :root{
+	 --color_1: #AE9BC5;
+	 --color_2:	#9896C3;
+	 --color_3: #834694;
+	 --color_4: #414698;
+	 --color_5: #236CB9;
+	 --color_1D: #ae9bc5df;
+	 --color_2D: #9896C3df;
+	 --color_3D: #834694df;
+	 --color_4D: #414698df;
+	 --color_5D: #236CB9df;
+ }
 .page-bg {
 	background-image: url("../../images/DnHBackGround.png");
 	-webkit-filter: blur(5px);
@@ -27,12 +38,20 @@
 	padding: 2.5% 20% 2.5% 20%;
 	
 }
-.styleBack p, .styleBack h1
+.styleBack h1
 {
-	background-color: rgb(255, 255, 255);
+	background-color: var(--color_4D);
 	background-size: cover;
 	padding: 1% 1% 1% 1%;
 	border-radius: 5px 5px;
+	color: whitesmoke;
+}
+.styleBack p{
+	background-color: var(--color_5D);
+	background-size: cover;
+	padding: 1% 1% 1% 1%;
+	border-radius: 5px 5px;
+	color: whitesmoke;
 }
 .left{
 	max-width: 50ch;
