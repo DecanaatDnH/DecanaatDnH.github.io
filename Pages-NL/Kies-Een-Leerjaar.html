@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title id="title">DecanaatDnH</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+	<link rel="icon" href="https://denieuwehavo.nl/wp-content/uploads/2019/07/cropped-DeNieuweHavo_favicon-32x32.png"
+		sizes="32x32" />
+	<link rel="icon" href="https://denieuwehavo.nl/wp-content/uploads/2019/07/cropped-DeNieuweHavo_favicon-192x192.png"
+		sizes="192x192" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/transition.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+</head>
+
+<body onresize="myFunction()" class="" style="overflow: auto;">
+	
+	<div class="transition transition-1 is-active"></div>
+	
+	<!-- Intro -->
+	<section style="height:100%; width: 100%;" >
+		<div class="page-bg"></div>
+	</section>
+	<div class="page-bg"></div>
+
+	<!-- Scripts -->
+	<script>
+		var mouseX;
+		var mouseY;
+		$(document).mousemove(function (e) {
+			mouseX = e.pageX;
+			mouseY = e.pageY;
+		});
+		$(".classForHoverEffect").mouseover(function () {
+			$('#DivToShow').css({ 'top': mouseY, 'left': mouseX }).fadeIn('slow');
+		});
+	</script>
+	<script>
+		function myFunction() {
+			if (window.screen.width < window.screen.height) {
+				console.log("Width is smaller now");
+				document.getElementById("OnWitdhHeight").style.height = "auto";
+				document.getElementById("OnWitdhHeight").style.width = "100%";
+			}
+			if (window.screen.width > window.screen.height) {
+				console.log("Width is bigger now");
+				document.getElementById("OnWitdhHeight").style.height = "100%";
+				document.getElementById("OnWitdhHeight").style.width = "auto";
+			}
+		}
+		var one = document.getElementById('one');
+		var title = document.getElementById('title');
+
+		window.onscroll = function () {
+			title.textContent = checkVisible(one) ? 'DecanaatDnH | Over Ons' : 'DecanaatDnH';
+		};
+		function checkVisible(elm) {
+			var rect = elm.getBoundingClientRect();
+			var viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
+			return !(rect.bottom < 0 || rect.top - viewHeight >= 0);
+		}
+		function KeepTop() {
+			window.scroll({
+				top: 0,
+				left: 0,
+				behavior: 'smooth'
+			});
+			window.scrollTo(0, 0);
+		}
+
+	</script>
+	<script type="application/javascript">
+
+		function resizeIFrameToFitContent(iFrame) {
+
+			iFrame.width = iFrame.contentWindow.document.body.scrollWidth;
+			iFrame.height = iFrame.contentWindow.document.body.scrollHeight;
+		}
+
+		window.addEventListener('DOMContentLoaded', function (e) {
+
+			var iFrame = document.getElementById('iFrame1');
+			resizeIFrameToFitContent(iFrame);
+
+			// or, to resize all iframes:
+			var iframes = document.querySelectorAll("iframe");
+			for (var i = 0; i < iframes.length; i++) {
+				resizeIFrameToFitContent(iframes[i]);
+			}
+		});
+
+	</script>
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.poptrox.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/loader.js"></script>
+
+</body>
+
+</html>
