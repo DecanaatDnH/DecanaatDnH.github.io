@@ -1,6 +1,6 @@
 window.onload = () => {
     const transition_el = document.querySelector('.transition');
-    const anchors = document.getElementsByClassName('TransitionEl');
+    const anchors = document.getElementsByClassName('TransitionEl'); 
     setTimeout(() => {
         transition_el.classList.remove('is-active');
     }, 500);
