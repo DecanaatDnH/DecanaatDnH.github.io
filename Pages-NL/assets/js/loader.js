@@ -7,7 +7,7 @@ window.onload = () => {
 
     for (let i = 0; i < anchors.length; i++) {
         const anchor = anchors[i];
-
+        console.log(anchor);
         anchor.addEventListener('click', e => {
             e.preventDefault();
             let target = e.target.href;
@@ -16,6 +16,7 @@ window.onload = () => {
 
             setTimeout(() => {
                 window.location.href = target;
+                console.log("redirecting...")
             }, 500);
         });
     }

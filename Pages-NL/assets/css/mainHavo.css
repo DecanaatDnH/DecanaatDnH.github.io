@@ -2665,19 +2665,24 @@ input, select, textarea {
 	}
 	.page-bg {
 		position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-    background-image: url("../../images/DnHBackGround.png");
-    -webkit-filter: blur(5px);
-    -moz-filter: blur(5px);
-    -o-filter: blur(5px);
-    -ms-filter: blur(5px);
-    filter: blur(5px);
-    background-repeat: no-repeat;
-    background-size: cover;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: -1;
+		background-image: url("../../images/DnHBackGround.png");
+		-webkit-filter: blur(5px);
+		-moz-filter: blur(5px);
+		-o-filter: blur(5px);
+		-ms-filter: blur(5px);
+		filter: blur(5px);
+		background-repeat: no-repeat;
+		background-size: cover;
+		-webkit-transition: 0.5s ease-in-out;
+		-moz-transition: 0.5s ease-in-out;
+		-o-transition: 0.5s ease-in-out;
+		-ms-transition: 0.5s ease-in-out;
+		transition: 0.5s ease-in-out;
 	  }
 
 /* One */
