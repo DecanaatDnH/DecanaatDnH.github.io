@@ -2488,6 +2488,9 @@ input, select, textarea {
 		align-items: center;
 		justify-content: space-evenly;
 		}
+		.MidLJSelectcon{
+			margin-top: 5%;
+		}
 	.ButtonLJ{
 		-moz-appearance: none;
 		-webkit-appearance: none;
@@ -2503,21 +2506,38 @@ input, select, textarea {
 		color: #ffffff;
 		cursor: pointer;
 		display: inline-block;
-		line-height: 3.5em;
+		line-height: 5.5em;
 		outline: 0;
 		margin: 0;
 		text-align: center;
 		text-decoration: none;
 		padding: 1px 10px 1px 10px;
+		width: 13ch;
+		height: 13ch;
 	}
 	.ButtonLJ.left{
+		transition: ease-in 0.33s;
 		transform: translateY(0);
+	}
+	.ButtonLJ.left:hover{
+		transition: ease-in 0.33s;
+		transform: translateY(0) scale(1.5);
 	}
 	.ButtonLJ.mid{
-		transform: translateY(-200%);
+		transition: ease-in 0.33s;
+		transform: translateY(-150%);
+	}
+	.ButtonLJ.mid:hover{
+		transition: ease-in 0.33s;
+		transform: translateY(-150%) scale(1.5);
 	}
 	.ButtonLJ.right{
+		transition: ease-in 0.33s;
 		transform: translateY(0);
+	}
+	.ButtonLJ.right:hover{
+		transition: ease-in 0.33s;
+		transform: translateY(0) scale(1.5);
 	}
 	
 /* One */
