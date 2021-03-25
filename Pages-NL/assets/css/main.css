@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
-@import url("Raleway-all.min.css");
+@import url("fontawesome-all.min.css");
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, .pen, p object, blockquote,
@@ -475,7 +475,7 @@ input, select, textarea {
 			transform-origin: 50% 50%;
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: Raleway;
+			font-family: FontAwesome;
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -848,7 +848,7 @@ input, select, textarea {
 				display: block;
 				width: auto;
 				height: fit-content;
-				font-family: "Source Sans Pro", "sans-serif";
+				font-size: 16px;
 				margin: 2px 2px;
 				border-radius: 50%;
 				cursor: pointer;
@@ -1383,7 +1383,7 @@ input, select, textarea {
 				animation: spinner-rotate 0.75s infinite linear !important;
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family: Raleway;
+				font-family: FontAwesome;
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
