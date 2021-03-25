@@ -848,7 +848,7 @@ input, select, textarea {
 				display: block;
 				width: auto;
 				height: fit-content;
-				font-size: 16px;
+				font-family: "Source Sans Pro", "sans-serif";
 				margin: 2px 2px;
 				border-radius: 50%;
 				cursor: pointer;
