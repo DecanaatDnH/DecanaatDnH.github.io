@@ -68,3 +68,7 @@
 	height: auto;
 	width: 7%;
 }
+iframe{
+	border: none;
+	color: white;
+}
