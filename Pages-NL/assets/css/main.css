@@ -39,6 +39,9 @@ ol, ul {
 	color: #012004;
 	
 }
+p iframe{
+	display: inline-block;
+}
 blockquote, q {
 	quotes: none;
 }

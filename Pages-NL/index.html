@@ -16,7 +16,7 @@
 	</noscript>
 </head>
 
-<body onresize="myFunction()" class="is-preload" style="overflow: auto;">
+<body onload="getFrameContents()" onresize="myFunction()" class="is-preload" style="overflow: auto;">
 
 	<div class="transition transition-1 is-active"></div>
 	<div class="page-bg"></div>
@@ -60,8 +60,8 @@
 			<header>
 				<h2>Over Ons</h2>
 			</header>
-			<p>
-				<iframe id="iFrame1" style="color: #3b3b3b;" width="100%" height="100%" src="ContentText\OverOns.html" title="Over Ons Content">
+			<p id="OverOns">
+				<iframe id="iFrame1" style="visibility: hidden; position: absolute; display: none;" width="100%" height="100%" src="ContentText\OverOns.html" title="Over Ons Content">
 				</iframe>
 			</p>
 		</div>
@@ -132,27 +132,24 @@
 		}
 
 	</script>
-	<script type="application/javascript">
-
-		function resizeIFrameToFitContent(iFrame) {
-
-			iFrame.width = iFrame.contentWindow.document.body.scrollWidth;
-			iFrame.height = iFrame.contentWindow.document.body.scrollHeight;
+	<script>
+  
+        // Function to count total
+        // number of lines
+        function getFrameContents(){
+		var iFrame =  document.getElementById('iFrame1');
+		var iFrameBody;
+		if ( iFrame.contentDocument ) 
+		{ // FF
+			iFrameBody = iFrame.contentDocument.getElementsByTagName('body')[0];
 		}
-
-		window.addEventListener('DOMContentLoaded', function (e) {
-
-			var iFrame = document.getElementById('iFrame1');
-			resizeIFrameToFitContent(iFrame);
-
-			// or, to resize all iframes:
-			var iframes = document.querySelectorAll("iframe");
-			for (var i = 0; i < iframes.length; i++) {
-				resizeIFrameToFitContent(iframes[i]);
-			}
-		});
-
-	</script>
+		else if ( iFrame.contentWindow ) 
+		{ // IE
+			iFrameBody = iFrame.contentWindow.document.getElementsByTagName('body')[0];
+		}
+			console.log(iFrameBody.innerHTML);
+		}
+    </script>
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/jquery.poptrox.min.js"></script>
 	<script src="assets/js/jquery.scrolly.min.js"></script>
