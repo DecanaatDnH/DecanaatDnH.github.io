@@ -46,7 +46,7 @@
 	<script>
 		function resizeP(){
 			var x = document.getElementById("iFrame1");
-			document.getElementById("SetHeight").style.height = (x + 25) + "px";
+			document.getElementById("SetHeight").style.height = (x.scrollHeight) + "px";
 			console.log(x.scrollHeight);
 			console.log(document.getElementById("SetHeight").style.height);
 		}
