@@ -16,7 +16,7 @@
 	</noscript>
 </head>
 
-<body onload="getFrameContents()" onresize="myFunction()" class="is-preload" style="overflow: auto;">
+<body onload="CopyTextFormIframe()" onresize="myFunction()" class="is-preload" style="overflow: auto;">
 
 	<div class="transition transition-1 is-active"></div>
 	<div class="page-bg"></div>
@@ -61,7 +61,8 @@
 				<h2>Over Ons</h2>
 			</header>
 			<p id="OverOns">
-
+				<iframe id="iFrame1" style="visibility: hidden; position: absolute; display: none;" width="100%" height="100%" src="ContentText\OverOns.html" title="Over Ons Content">
+				</iframe>
 			</p>
 		</div>
 	</section>
@@ -132,13 +133,17 @@
 
 	</script>
 	<script>
-		var txtFile = new XMLHttpRequest();
-		txtFile.open("GET", "ContentText/OverOns.txt", true);
-		txtFile.onreadystatechange = function() {
-		  if (txtFile.readyState === 4 && txtFile.status == 200) {
-			 allText = txtFile.responseText;
-		  }
-		document.getElementById('OverOns').innerHTML = allText;</script>
+  
+        // Function to count total
+        // number of lines
+        function CopyTextFormIframe() {
+			var frame = document.getElementById('iFrame1');
+			var frameContent = frame.innerHTML;
+			var pOverOns = document.getElementById("OverOns");
+			pOverOns.textContent = frameContent;
+			console.log(frameContent);
+        }
+    </script>
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/jquery.poptrox.min.js"></script>
 	<script src="assets/js/jquery.scrolly.min.js"></script>
