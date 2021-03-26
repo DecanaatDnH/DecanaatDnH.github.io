@@ -18,7 +18,7 @@
 	</noscript>
 </head>
 
-<body class="is-preload">
+<body class="is-preload" onload="resizeP()">
 
 	<!-- <div class="transition transition-1 is-active"></div> -->
 	<div class="transition transition-1 is-active"></div>
@@ -36,13 +36,22 @@
 				</h1>
 			</div>
 			<div>
-				<p>
+				<p id="SetHeight">
 					<iframe id="iFrame1" width="100%" height="100%" src="../ContentText\Havo-5-Content\Content_Meelopen-opleiding.html" title="">
 					</iframe>
 				</p>
 			</div>
 		</div>
 	</div>
+	<script>
+		function resizeP(){
+			var y = document.getElementById("SetHeight");
+			var x = document.getElementById("iFrame1");
+			y.style.height = x.scrollHeight;
+			console.log("sizing")
+		}
+		
+	</script>
 	<script src="../assets/js/jquery.min.js"></script>
 	<script src="../assets/js/jquery.poptrox.min.js"></script>
 	<script src="../assets/js/jquery.scrolly.min.js"></script>
